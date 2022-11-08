@@ -36,9 +36,12 @@
  }
 
  .subText {
-    color: #fcfcfcf3;
+    color: #9ed2fad8;
     margin: 0 auto;
     text-align: center;
     font-family: cursive;
     padding: 1.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.918);
+    border-radius: 10px;
+    width: 775px;
  }  

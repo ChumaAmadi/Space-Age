@@ -1,0 +1,44 @@
+.video {   
+    object-fit: cover;   
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1; 
+}
+
+.mainText {
+    color: #9ed2faa2;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 9rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn ease 5s;
+    border: 2px solid rgba(255, 255, 255, 0.918);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    width: 825px;
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }
+
+ .subText {
+    color: #fcfcfcf3;
+    margin: 0 auto;
+    text-align: center;
+    font-family: cursive;
+    padding: 1.5rem;
+ }  

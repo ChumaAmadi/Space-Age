@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Rocket from '../components/rocket'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       </video>
       <h1 className={styles.mainText}>Space Age</h1>
       <p className={styles.subText}>"In this single galaxy of ours there are eighty-seven thousand million suns." - Arthur C. Clarke</p>
+      <Rocket />
     </div>
   )
 }

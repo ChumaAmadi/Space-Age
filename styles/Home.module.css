@@ -15,7 +15,6 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn ease 5s;
-    border-radius: 10px;
     padding-bottom: 20px;
     width: 825px;
 }
@@ -51,4 +50,32 @@
    display: flex;
    top: 100px;
    cursor: pointer;
+ }
+
+ .whatIs {
+   color: #eef2f5c9;
+   margin: 0 auto;
+   text-align: center;
+   padding: 1.5rem;
+   display: flex;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   animation: fadeIn 5s;
+   -webkit-animation: fadeIn ease 5s;
+ }
+
+ .aboutContainer {
+   margin: 0 auto;
+   display: flexbox;
+ }
+
+ .aboutText {
+   
+ }
+
+ .aboutText1 {
+
+ }
+
+ .aboutText2 {
+
  }

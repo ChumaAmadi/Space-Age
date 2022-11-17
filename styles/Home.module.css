@@ -44,38 +44,79 @@
  } 
 
  .rocket {
-   position: relative;
-   animation: animate .2s ease infinite;
-   margin: 0 auto;
-   display: flex;
-   top: 100px;
-   cursor: pointer;
+    position: relative;
+    animation: animate .2s ease infinite;
+    margin: 0 auto;
+    display: flex;
+    top: 100px;
+    cursor: pointer;
  }
 
  .whatIs {
-   color: #eef2f5c9;
-   margin: 0 auto;
-   text-align: center;
-   padding: 1.5rem;
-   display: flex;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   animation: fadeIn 5s;
-   -webkit-animation: fadeIn ease 5s;
+    color: #eef2f5c9;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5rem;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn ease 5s;
  }
 
  .aboutContainer {
-   margin: 0 auto;
-   display: flexbox;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .question {
+    text-align: center;
+    margin: 0 auto;
+    color: rgba(127, 255, 212, 0.733);; 
+    font-size: 5.5rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn ease 5s;
+    padding-bottom: 20px;
+    width: 825px;
+ }
+
+ .aboutContainer {
+    margin: 0 auto;
+    display: flexbox;
+    width: 75%;
+    border: 1.6px solid #eef2f548;
+    height: 300px;
+    border-radius: 10px;
  }
 
  .aboutText {
-   
+    font-size: .9rem;
+    color: aquamarine;
+    margin: 0 auto;
+    text-align: center;
+    font-style: oblique;
+    position: relative;
+    top: 225px;
  }
 
  .aboutText1 {
-
+    font-size: .9rem;
+    color: aquamarine;
+    margin: 0 auto;
+    text-align: center;
+    font-style: oblique;
+    position: relative;
+    top: 225px;
  }
 
  .aboutText2 {
-
+    font-size: .9rem;
+    color: aquamarine;
+    margin: 0 auto;
+    text-align: center;
+    font-style: oblique;
+    position: relative;
+    top: 225px;
  }

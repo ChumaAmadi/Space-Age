@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import IconSlideshow from '../components/icon-slideshow'
 
 export default function About() {
   return (
@@ -13,6 +14,7 @@ export default function About() {
          <p className={styles.aboutText}>
             Space Age is a click-based game where your choices truly matter.
         </p>
+        <IconSlideshow />
         <p className={styles.aboutText1}>
           You can choose to be a merchant, pirate, or an explorer.
         </p>

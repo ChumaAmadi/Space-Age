@@ -120,3 +120,22 @@
     position: relative;
     top: 225px;
  }
+
+ .slideshowContainer {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    /* border: 1.6px solid #eef2f548; */
+ }
+
+ .fade {
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+ 
+ @keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 

@@ -121,3 +121,10 @@
     top: 225px;
  }
 
+ .iconContainer {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 225px;
+ }

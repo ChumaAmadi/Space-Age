@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import IconSlideshow from '../components/icon-slideshow'
+import Icons from '../components/icons'
 
 export default function About() {
   return (
@@ -11,10 +11,10 @@ export default function About() {
       </video>
       <h3 className={styles.question}>What Is Space Age?</h3>
       <div className={styles.aboutContainer}>
-         <p className={styles.aboutText}>
+        <Icons />
+        <p className={styles.aboutText}>
             Space Age is a click-based game where your choices truly matter.
         </p>
-        <IconSlideshow />
         <p className={styles.aboutText1}>
           You can choose to be a merchant, pirate, or an explorer.
         </p>

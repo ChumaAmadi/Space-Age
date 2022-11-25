@@ -13,7 +13,7 @@ export default function About() {
       <div className={styles.aboutContainer}>
         <Icons />
         <p className={styles.aboutText}>
-            Space Age is a click-based game where your choices truly matter.
+            In Space Age, your choices truly matter.
         </p>
         <p className={styles.aboutText1}>
           You can choose to be a merchant, pirate, or an explorer.

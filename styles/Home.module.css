@@ -7,14 +7,14 @@
 }
 
 .mainText {
-    color: #eef2f5a1;
+    color: #000000b4;
     margin: 0 auto;
     text-align: center;
-    font-size: 9rem;
+    font-size: 8rem;
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn ease 5s;
+    /* animation: fadeIn 5s; */
+    /* -webkit-animation: fadeIn ease 5s; */
     padding-bottom: 20px;
     width: 825px;
 }
@@ -34,13 +34,14 @@
  }
 
  .subText {
-    color: #eef2f5c9;
+    color: #000000af;
     margin: 0 auto;
     text-align: center;
     font-family: cursive;
     padding: 1.5rem;
     border-radius: 10px;
-    width: 775px;
+    width: 690px;
+    font-size: 1.345rem;
  } 
 
  .rocket {
@@ -50,6 +51,8 @@
     display: flex;
     top: 100px;
     cursor: pointer;
+    height: 150px;
+    width: 80px;
  }
 
  .whatIs {
@@ -161,4 +164,71 @@
    width: 110px;
    left: 719px;
    position: relative;
+ }
+
+ .rainbow {
+   width: 700px;
+   height: 300px;
+   border-radius: 10px;
+   padding: 2rem;
+   margin: auto;
+   display: grid;
+   place-content: center;
+   text-align: center;
+   font-size: 1.5em;
+   --border-size: 0.3rem;
+   border: var(--border-size) solid transparent;
+ 
+   /* Paint an image in the border */
+   border-image: conic-gradient(
+       from var(--angle),
+       #63d0df 0deg 90deg,
+       #63d0df 90deg 180deg,
+       #8022ac 180deg 270deg,
+       #8022ac 270deg 360deg
+     )
+     1 stretch;
+   background: rgb(255 255 255 / var(--opacity));
+ }
+ 
+ /** show a warning in browers that don't support it **/
+ .warning {
+   margin: 2em;
+   padding: 1em;
+   border: 1px solid #ccc;
+ }
+ .warning p {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+ }
+ /* Animate when Houdini is available */
+ @supports (background: paint(houdini)) {
+   @property --opacity {
+     syntax: "<number>";
+     initial-value: 0.5;
+     inherits: false;
+   }
+ 
+   @property --angle {
+     syntax: "<angle>";
+     initial-value: 0deg;
+     inherits: false;
+   }
+ 
+   @keyframes opacityChange {
+     to {
+       --opacity: 0.65;
+     }
+   }
+ 
+   @keyframes rotate {
+     to {
+       --angle: 360deg;
+     }
+   }
+ 
+   .rainbow {
+     animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
+   }
  }

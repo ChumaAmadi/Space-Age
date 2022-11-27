@@ -13,8 +13,10 @@ export default function Home() {
       <video autoPlay muted loop className={styles.video}>         
         <source src="/star.mp4" type="video/mp4"/>       
       </video>
-      <h1 className={styles.mainText}>Space Age</h1>
-      <p className={styles.subText}>"In this single galaxy of ours there are eighty-seven thousand million suns." - Arthur C. Clarke</p>
+      <div className={styles.rainbow}>
+        <h1 className={styles.mainText}>Space Age</h1>
+        <p className={styles.subText}>"In this single galaxy of ours there are eighty-seven thousand million suns." - Arthur C. Clarke</p>
+      </div>
       <Rocket />
     </div>
   )

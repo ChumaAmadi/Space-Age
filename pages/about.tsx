@@ -26,11 +26,6 @@ export default function About() {
           Decide your path & create your own story.
         </p>
       </div>
-      
-      <h3 className={styles.rulesOverview}>Rules</h3>
-      <p className={styles.rulesText}>Click on any of the icons to read about that aspect of the game</p>
-      <div className={styles.rulesContainer}>
-      </div>
     </div>
   )
 }  

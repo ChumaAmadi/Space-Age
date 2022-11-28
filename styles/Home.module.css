@@ -117,12 +117,9 @@
 
  .aboutContainer {
     margin: 0 auto;
-    display: flexbox;
-    width: 75%;
-    border: 1.6px solid #8022ac;
+    display: flex;
+    flex-direction: column;
     height: 360px;
-    border-radius: 10px;
-    flex-direction: row;
  }
 
  .aboutText {
@@ -132,9 +129,6 @@
     text-align: center;
     font-style: oblique;
     position: relative;
-    top: 237px;
-    right: 290px;
-    padding: 5px;
  }
 
  .aboutText1 {
@@ -144,9 +138,6 @@
     text-align: center;
     font-style: oblique;
     position: relative;
-    top: 237px;
-    right: 175px;
-    padding: 5px;
  }
 
  .aboutText2 {
@@ -156,44 +147,54 @@
     text-align: center;
     font-style: oblique;
     position: relative;
-    top: 237px;
-    right: 47px;
-    padding: 5px;
- }
-
- .iconContainer {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    top: 95px;
  }
 
  .pirate {
    margin: 0 auto;
    display: flex;
-   height: 105px;
-   width: 105px;
-   left: 92px;
+   height: 90px;
+   width: 90px;
    position: relative;
+   border-radius: 25%;
+   border: 1px solid #ffffffb4;
+   padding: 25px;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   box-shadow: 0 0 0 0 #fffffffb;
+	 transform: scale(1);
+	 animation: pulse 1s infinite;
  }
 
  .merchant {
    margin: 0 auto;
    display: flex;
-   height: 105px;
-   width: 105px;
-   left: 391px;
+   height: 90px;
+   width: 90px;
    position: relative;
+   padding: 25px;
+   border-radius: 25%;
+   border: 1px solid #ffffffb4;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   box-shadow: 0 0 0 0 #ffffff;
+	 transform: scale(1);
+	 animation: pulse 1s infinite;
  }
 
  .explorer {
    margin: 0 auto;
    display: flex;
-   height: 105px;
-   width: 105px;
-   left: 722px;
+   height: 90px;
+   width: 90px;
    position: relative;
+   padding: 25px;
+   border-radius: 25%;
+   border: 1px solid #ffffffb4;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   box-shadow: 0 0 0 0 #ffffff;;
+   transform: scale(1);
+	 animation: pulse 1s infinite;
  }
 
  .rainbow {

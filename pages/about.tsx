@@ -13,15 +13,15 @@ export default function About() {
       </video>
       <h3 className={styles.question}>What Is Space Age?</h3>
       <div className={styles.aboutContainer}>
-        <Image src={pirate} alt="Pirate" className={styles.pirate} /> 
+        <Link href="/choices"><Image src={pirate} alt="Pirate" className={styles.pirate} /></Link>
         <p className={styles.aboutText}>
           In Space Age, your choices truly matter.
         </p>
-        <Image src={merchant} alt="Merchant" className={styles.merchant} />
+        <Link href="/classes"><Image src={merchant} alt="Merchant" className={styles.merchant} /></Link>
         <p className={styles.aboutText1}>
           You can choose to be a merchant, pirate, or an explorer.
         </p>
-        <Image src={explorer} alt="Explorer" className={styles.explorer} />
+        <Link href="/subGame"><Image src={explorer} alt="Explorer" className={styles.explorer} /></Link>
         <p className={styles.aboutText2}>
           Decide your path & create your own story.
         </p>

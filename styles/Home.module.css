@@ -265,3 +265,141 @@
      animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
    }
  }
+
+ /* Navbar & Content */
+ .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 93%;
+  height: 30px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: left;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.leftContent {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.navbarText {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.navbarText:hover .navbarText2:hover {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.rightContent {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.navbarButton {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 720;
+  margin-left: 1.5rem;
+  font-style: oblique;
+}
+
+.navbarButton1 {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 720;
+  margin-left: 1.5rem;
+  font-style: oblique;
+}
+
+.navbarButton2 {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 720;
+  margin-left: 1.5rem;
+  font-style: oblique;
+}
+
+.navbarButton3 {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 720;
+  margin-left: 1.5rem;
+  font-style: oblique;
+}
+
+.navbarButton4 {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 720;
+  margin-left: 1.5rem;
+  font-style: oblique;
+}
+
+.navbarButton:hover {
+  background-color: #430d4b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbarButton1:hover {
+  background-color: #430d4b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbarButton2:hover {
+  background-color: #430d4b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbarButton3:hover {
+  background-color: #430d4b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbarButton4:hover {
+  background-color: #430d4b;
+  color: #fff;
+  cursor: pointer;
+}
+/* End Of Navbar & Content */

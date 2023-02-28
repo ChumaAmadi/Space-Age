@@ -16,11 +16,18 @@ export default function Home() {
       <Space />
       <Navbar />
       
-      <div className={styles.rainbow}>
-        <h1 className={styles.mainText}>Space Age</h1>
-         <p className={styles.subText}>"In this single galaxy of ours there are eighty-seven thousand million suns." - Arthur C. Clarke</p>
-      </div>
-      <Rocket />
+      {/* Main Content */}
+      <main className={styles.main}>
+        <div className={styles.mainLeft}>
+          <h1 className={styles.title}>Space Age</h1>
+          <p className={styles.description}>Web3 is like a spacecraft, we are the astronauts.</p>
+        </div>
+        <div className={styles.mainRight}>
+        <video autoPlay muted loop className={styles.ufoVideo}>         
+            <source src="/ufo.mp4" type="video/mp4"/>       
+        </video>
+        </div>  
+      </main>
     </div>
   )
 }

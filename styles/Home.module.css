@@ -6,266 +6,6 @@
     z-index: -1; 
 }
 
-.mainText {
-    color: #000000b4;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 6.5rem;
-    font-style: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* animation: fadeIn 5s; */
-    /* -webkit-animation: fadeIn ease 5s; */
-    padding-bottom: 17px;
-    width: 750px;
-    position: relative;
-    bottom: 20px;
-}
-@-webkit-keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
- }
- 
- @keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
- }
- 
- .fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
- }
-
- .subText {
-    color: #000000af;
-    margin: 0 auto;
-    text-align: center;
-    font-family: cursive;
-    padding: 1.5rem;
-    border-radius: 10px;
-    width: 690px;
-    font-size: 15px;
-    position: relative;
-    bottom: 27px;
- } 
-
- .rocket {
-    position: relative;
-    margin: 0 auto;
-    display: flex;
-    top: 55px;
-    cursor: pointer;
-    height: 300px;
-    width: 300px;
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	  transform: scale(1);
-	  animation: pulse 2s infinite;
-    border-radius: 50%;
-}
-
-.rocket:hover {
-    animation: none;
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-    transform: scale(1);
-}
-
-@keyframes pulse {
-	0% {
-		transform: scale(0.75);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-	}
-
-	70% {
-		transform: scale(0.80);
-		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-	}
-
-	100% {
-		transform: scale(0.83);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-	}
-}
-
- .whatIs {
-    color: #eef2f5c9;
-    margin: 0 auto;
-    text-align: center;
-    padding: 1.5rem;
-    display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn ease 5s;
- }
-
- .aboutContainer {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
- }
-
- .question {
-    text-align: center;
-    margin: 0 auto;
-    color: rgba(127, 255, 212, 0.733);; 
-    font-size: 5.5rem;
-    font-style: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn ease 5s;
-    padding-bottom: 20px;
-    width: 825px;
- }
-
- .aboutContainer {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    height: 360px;
- }
-
- .aboutText {
-    font-size: .9rem;
-    color: aquamarine;
-    margin: 0 auto;
-    text-align: center;
-    font-style: oblique;
-    position: relative;
- }
-
- .aboutText1 {
-    font-size: .9rem;
-    color: aquamarine;
-    margin: 0 auto;
-    text-align: center;
-    font-style: oblique;
-    position: relative;
- }
-
- .aboutText2 {
-    font-size: .9rem;
-    color: aquamarine;
-    margin: 0 auto;
-    text-align: center;
-    font-style: oblique;
-    position: relative;
- }
-
- .pirate {
-   margin: 0 auto;
-   display: flex;
-   height: 90px;
-   width: 90px;
-   position: relative;
-   border-radius: 25%;
-   border: 1px solid #ffffffb4;
-   padding: 25px;
-   margin-bottom: 10px;
-   margin-top: 10px;
-   box-shadow: 0 0 0 0 #fffffffb;
-	 transform: scale(1);
-	 animation: pulse 1s infinite;
- }
-
- .merchant {
-   margin: 0 auto;
-   display: flex;
-   height: 90px;
-   width: 90px;
-   position: relative;
-   padding: 25px;
-   border-radius: 25%;
-   border: 1px solid #ffffffb4;
-   margin-bottom: 10px;
-   margin-top: 20px;
-   box-shadow: 0 0 0 0 #ffffff;
-	 transform: scale(1);
-	 animation: pulse 1s infinite;
- }
-
- .explorer {
-   margin: 0 auto;
-   display: flex;
-   height: 90px;
-   width: 90px;
-   position: relative;
-   padding: 25px;
-   border-radius: 25%;
-   border: 1px solid #ffffffb4;
-   margin-bottom: 10px;
-   margin-top: 20px;
-   box-shadow: 0 0 0 0 #ffffff;;
-   transform: scale(1);
-	 animation: pulse 1s infinite;
- }
-
- .rainbow {
-   width: 680px;
-   height: 275px;
-   border-radius: 10px;
-   padding: 2rem;
-   margin: auto;
-   display: grid;
-   place-content: center;
-   top: 6px;
-   position: relative;
-   text-align: center;
-   font-size: 1.5em;
-   --border-size: 0.3rem;
-   border: var(--border-size) solid transparent;
- 
-   /* Paint an image in the border */
-   border-image: conic-gradient(
-       from var(--angle),
-       #63d0df 0deg 90deg,
-       #63d0df 90deg 180deg,
-       #8022ac 180deg 270deg,
-       #8022ac 270deg 360deg
-     )
-     1 stretch;
-   background: rgb(255 255 255 / var(--opacity));
- }
- 
- /** show a warning in browers that don't support it **/
- .warning {
-   margin: 2em;
-   padding: 1em;
-   border: 1px solid #ccc;
- }
- .warning p {
-   margin: 0;
-   padding: 0;
-   text-align: center;
- }
- /* Animate when Houdini is available */
- @supports (background: paint(houdini)) {
-   @property --opacity {
-     syntax: "<number>";
-     initial-value: 0.5;
-     inherits: false;
-   }
- 
-   @property --angle {
-     syntax: "<angle>";
-     initial-value: 0deg;
-     inherits: false;
-   }
- 
-   @keyframes opacityChange {
-     to {
-       --opacity: 0.65;
-     }
-   }
- 
-   @keyframes rotate {
-     to {
-       --angle: 360deg;
-     }
-   }
- 
-   .rainbow {
-     animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
-   }
- }
-
  /* Navbar & Content */
  .navbar {
   display: flex;
@@ -313,9 +53,8 @@
     margin-left: 2rem;
 }
 
-.navbarButton {
-  background-color: #fff;
-  color: #000;
+.navbarText1 {
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -325,9 +64,8 @@
   font-style: oblique;
 }
 
-.navbarButton1 {
-  background-color: #fff;
-  color: #000;
+.navbarText2 {
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -337,9 +75,8 @@
   font-style: oblique;
 }
 
-.navbarButton2 {
-  background-color: #fff;
-  color: #000;
+.navbarText3 {
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -349,9 +86,8 @@
   font-style: oblique;
 }
 
-.navbarButton3 {
-  background-color: #fff;
-  color: #000;
+.navbarText4 {
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -361,9 +97,8 @@
   font-style: oblique;
 }
 
-.navbarButton4 {
-  background-color: #fff;
-  color: #000;
+.navbarText5 {
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -373,33 +108,28 @@
   font-style: oblique;
 }
 
-.navbarButton:hover {
-  background-color: #430d4b;
-  color: #fff;
+.navbarText5:hover {
+  color: #7b337d;
   cursor: pointer;
 }
 
-.navbarButton1:hover {
-  background-color: #430d4b;
-  color: #fff;
+.navbarText1:hover {
+  color: #7b337d;
   cursor: pointer;
 }
 
-.navbarButton2:hover {
-  background-color: #430d4b;
-  color: #fff;
+.navbarText2:hover {
+  color: #7b337d;
   cursor: pointer;
 }
 
-.navbarButton3:hover {
-  background-color: #430d4b;
-  color: #fff;
+.navbarText3:hover {
+  color: #7b337d;
   cursor: pointer;
 }
 
-.navbarButton4:hover {
-  background-color: #430d4b;
-  color: #fff;
+.navbarText4:hover {
+  color: #7b337d;
   cursor: pointer;
 }
 /* End Of Navbar & Content */

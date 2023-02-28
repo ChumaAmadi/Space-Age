@@ -14,11 +14,11 @@ export default function Navbar() {
                 <h3 className={styles.navbarText}>Space-Age</h3>
             </div>
             <div className={styles.rightContent}>
-                <button className={styles.navbarButton}>Home</button>
-                <button className={styles.navbarButton1}>Whitepaper</button>
-                <button className={styles.navbarButton2}>Team</button>
-                <button className={styles.navbarButton3}>Select Wallet</button>
-                <button className={styles.navbarButton4}>Play Game</button>
+                <h3 className={styles.navbarText1}>Home</h3>
+                <h3 className={styles.navbarText2}>Whitepaper</h3>
+                <h3 className={styles.navbarText3}>Team</h3>
+                <h3 className={styles.navbarText4}>Select Wallet</h3>
+                <h3 className={styles.navbarText5}>Play Game</h3>
             </div>
         </nav>
     )

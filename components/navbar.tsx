@@ -11,7 +11,7 @@ export default function Navbar() {
                 <div className={styles.logo}>
                 <Link href="/"><Image src={logo} alt="" /></Link>
                 </div>
-                <h3 className={styles.navbarText}>Space-Age</h3>
+                <h3 className={styles.navbarText}>Space Age</h3>
             </div>
             <div className={styles.rightContent}>
                 <h3 className={styles.navbarText1}>Home</h3>

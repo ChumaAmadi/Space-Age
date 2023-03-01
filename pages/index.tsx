@@ -5,7 +5,7 @@ import Space from '../components/space'
 import Navbar from '../components/navbar'
 import Image from 'next/image'
 import Ufo from '../public/ufo.gif'
-import Features from './features'
+import Features from './game-features'
 
 export default function Home() {
   return (

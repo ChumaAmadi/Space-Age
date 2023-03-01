@@ -9,7 +9,6 @@ export default function Features() {
         <div className={styles.featureContainer}>
             <Image src={Planet} alt=" " layout="fill" quality="100" className={styles.planet} />
             <div className={styles.featureLeft}>
-                <h1 className={styles.featureTitle}>Features</h1>
                 <FeatureState />
             </div>
         </div>

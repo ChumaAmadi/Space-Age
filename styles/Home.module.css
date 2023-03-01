@@ -232,17 +232,17 @@
 }
 
 .featureTitle {
-  font-size: 3.2rem;
-  font-weight: 430;
-  left: 295px;
+  font-size: 3rem;
+  font-weight: 400;
+  right: 478px;
   margin-bottom: 1rem;
   width: 100%;
   position: relative;
-  bottom: 55px;
   font-style: oblique;
   color: #ffffff;
   display: flex;
   flex-direction: row;
+  bottom: 25px;
 }
 
 .featureContainer {
@@ -282,17 +282,18 @@
   position: relative;
   width: 100%;
   cursor: pointer;
-  height: 100%;
   background-color: rgba(0, 0, 0, 0.63);
   border: #fff 1px solid;
+  padding: .5rem;
+  bottom: 20px;
 }
 
 .featureState {
   display: flex;
   flex-direction: row;
   position: relative;
-  top: 100px;
-  right: 415px;
+  top: 30px;
+  right: 220px;
 }
 
 .featureText1 {

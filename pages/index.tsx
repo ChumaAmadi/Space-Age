@@ -5,6 +5,7 @@ import Space from '../components/space'
 import Navbar from '../components/navbar'
 import Image from 'next/image'
 import Ufo from '../public/ufo.gif'
+import Features from './features'
 
 export default function Home() {
   return (
@@ -16,7 +17,6 @@ export default function Home() {
       </Head>
       <Space />
       <Navbar />
-      
       {/* Main Content */}
       <main className={styles.main}>
         <div className={styles.mainContainer}>
@@ -26,7 +26,7 @@ export default function Home() {
             <p className={styles.description}>We are the ones who will take Web3 games to the next level through Solana.</p>
             <p className={styles.description}>At Space Age, our mission is to create a captivating and immersive text-adventure game 
             <br />that combines elements of popular games such as The Oregon Trail and Runescape to  deliver
-            <br />a unique experience and engaging experience. The hope is that the functionlitites of this game 
+            <br />a unique experience and engaging experience. The hope is that the functionalities of this game 
             <br />along with it's simplicity will allow for a wide range of users to enjoy it and keep coming back.</p>
           </div>
           <div className={styles.mainRight}>
@@ -34,6 +34,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <Features />
     </div>
   )
 }

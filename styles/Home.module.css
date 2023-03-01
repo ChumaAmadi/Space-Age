@@ -1,10 +1,11 @@
 /* Video Background */
 .video {   
-    object-fit: cover;   
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1; 
+  object-fit: cover;   
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  overflow-x: hidden;
 }
 
  /* Navbar & Content */
@@ -144,27 +145,27 @@
   align-items: center;
   justify-content: center;
   height: 90vh;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   padding: 0 2rem;
   color: #fff;
 }
 
 .main h1 {
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 3.2rem;
+  font-weight: 430;
   text-align: left;
   margin-bottom: 1rem;
   width: 100%;
   position: relative;
   bottom: 55px;
+  font-style: oblique;
 }
 
 .main p {
   font-size: 1.05rem;
-  font-weight: 200;
+  font-weight: 1rem;
   text-align: left;
-  padding-top: 2px;
   width: 100%;
   position: relative;
   bottom: 55px;
@@ -172,10 +173,11 @@
 
 .mainContainer {
   border: #fff 1px solid;
-  border-radius: 10px;
-  padding: 5rem;
+  padding: 6rem;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.541);
+  height: 40%;
+  background-color: rgba(0, 0, 0, 0.63);
+  position: relative;
 }
 
 .mainRight {
@@ -184,10 +186,11 @@
   align-items: right;
   justify-content: right;
   height: 50%;
-  width: 7  0%;
+  width: 70%;
   margin: 0 auto;
   padding: 0 2rem;
   color: #fff;
+
 }
 
 .ufo img {
@@ -201,15 +204,133 @@
   position: relative;
   z-index: 1;
   bottom: 25px;
-  right: 30px;
+  left: 50px;
 }
 
 .mainLeft {
-  display: flex;
-  flex-direction: column;
+  display: -ms-flexbox;
+  flex-direction: row;
   align-items: left;
   justify-content: left;
   height: 1px;
   margin: 0 auto;
   color: #fff;
+  padding-top: 35px;
+}
+
+/* End Of Main Content */
+
+/* Features Content */
+.featureText {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 1rem;
+  position: relative;
+  bottom: 55px;
+  font-style: oblique;
+}
+
+.featureTitle {
+  font-size: 3.2rem;
+  font-weight: 430;
+  left: 295px;
+  margin-bottom: 1rem;
+  width: 100%;
+  position: relative;
+  bottom: 55px;
+  font-style: oblique;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.featureContainer {
+  border: #fff 1px solid;
+  padding: 6rem;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.planet img {
+  position: relative;
+  z-index: -1;
+  object-fit: contain;
+}
+
+.featureLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  color: #fff;
+  position: relative;
+  bottom: 55px;
+}
+
+.featureState2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.63);
+  border: #fff 1px solid;
+}
+
+.featureState {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 100px;
+  right: 415px;
+}
+
+.featureText1 {
+  font-size: 1rem;
+  font-weight: 380;
+  color: #fff;
+  position: relative;
+  font-style: oblique;
+  top: 115px;
+  right: 222px;
+}
+
+.featureText2 {
+  font-size: 1rem;
+  font-weight: 380;
+  color: #fff;
+  position: relative;
+  font-style: oblique;
+  top: 105px;
+  right: 303px;
+}
+
+.featureText3 {
+  font-size: 1rem;
+  font-weight: 380;
+  color: #fff;
+  position: relative;
+  font-style: oblique;
+  top: 105px;
+  right: 244px;
+}
+
+.featureText4 {
+  font-size: 1rem;
+  font-weight: 380;
+  color: #fff;
+  position: relative;
+  font-style: oblique;
+  top: 105px;
+  right: 244px;
 }

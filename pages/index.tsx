@@ -6,6 +6,7 @@ import Navbar from '../components/navbar'
 import Image from 'next/image'
 import Ufo from '../public/ufo.gif'
 import Features from './game-features'
+import Roadmap from './roadmap'
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
         </div>
       </main>
       <Features />
+      <Roadmap />
     </div>
   )
 }

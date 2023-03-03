@@ -1,0 +1,31 @@
+.roadmapContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.63);
+    border: 1px solid #ffffff;
+}
+
+.roadmapText {
+    font-size: 3rem;
+    font-weight: 380;
+    color: #fff;
+    position: relative;
+    font-style: oblique;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    margin-top: 35px;
+}
+
+.roadmapContainer2 {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}

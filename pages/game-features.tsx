@@ -8,6 +8,7 @@ export default function Features() {
     return (
         <div className={styles.featureContainer}>
             <Image src={Planet} alt=" " layout="fill" quality="100" className={styles.planet} />
+            <h1 className={styles.featureTitle}>Game Features</h1>
             <div className={styles.featureLeft}>
                 <FeatureState />
             </div>

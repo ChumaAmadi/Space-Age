@@ -234,15 +234,17 @@
 .featureTitle {
   font-size: 3rem;
   font-weight: 400;
-  right: 478px;
-  margin-bottom: 1rem;
   width: 100%;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
   position: relative;
   font-style: oblique;
   color: #ffffff;
   display: flex;
   flex-direction: row;
-  bottom: 25px;
+  margin-bottom: 60px;
+  bottom: 80px;
 }
 
 .featureContainer {
@@ -252,6 +254,7 @@
   height: 400px;
   position: relative;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .planet img {
@@ -294,6 +297,7 @@
   position: relative;
   top: 30px;
   right: 220px;
+  overflow-x: hidden;
 }
 
 .featureText1 {

@@ -15,7 +15,6 @@ const FeatureState = () => {
   
     return (
       <div>
-        <h1 className = {styles.featureTitle}>Game Features</h1>
         <div className={styles.featureState}>
           <div className={styles.featureState2}>
             <Image

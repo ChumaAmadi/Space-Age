@@ -1,31 +1,54 @@
 .roadmapContainer {
-    display: flex;
-    flex-direction: row;
-    padding: 0 10px;
-    margin: 0 auto;
-    overflow-x: hidden;
+    border: #fff 1px solid;
+    padding: 6rem;
+    width: 100%;
+    height: 750px;
+    position: relative;
     overflow-y: hidden;
-    margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.63);
-    border: 1px solid #ffffff;
+    overflow-x: hidden;
 }
 
 .roadmapText {
     font-size: 3rem;
-    font-weight: 380;
-    color: #fff;
+    font-weight: 400;
+    width: 250px;
+    height: 100px;
+    text-align: left;
     position: relative;
     font-style: oblique;
-    text-align: left;
-    justify-content: left;
-    align-items: left;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
     margin-top: 35px;
+    z-index: 1;
+    right: 40px;
+    bottom: 65px;
+
 }
 
 .roadmapContainer2 {
+    border: #fff 1px solid;
+    width: 795px;
+    position: relative;
+    overflow-x: hidden;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
-    padding: 0 10px;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    position: relative;
+    left: 470px;
+    bottom: 80px;
+}
+
+.roadmapContainer2 img {
+    position: relative;
+    z-index: 1;
+    object-fit: contain;
+    width: 100%;
+
+}
+
+.cosmos img {
+    position: relative;
+    z-index: -1;
+    object-fit: contain;
 }

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../public/spaceagetrans.png'
 
-//Navbar Component
+{/* Navbar */}
 export default function Navbar() {
     return (
         <nav className={styles.navbar}>

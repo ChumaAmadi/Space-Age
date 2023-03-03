@@ -6,7 +6,7 @@ import Navbar from '../components/navbar'
 import Image from 'next/image'
 import Ufo from '../public/ufo.gif'
 import Features from './game-features'
-import Roadmap from './roadmap'
+import Roadmap from '../components/roadmap'
 
 export default function Home() {
   return (

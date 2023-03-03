@@ -6,6 +6,7 @@
     position: relative;
     overflow-y: hidden;
     overflow-x: hidden;
+    margin-top: 230px;
 }
 
 .roadmapText {

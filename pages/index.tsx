@@ -7,6 +7,7 @@ import Image from 'next/image'
 import Ufo from '../public/ufo.gif'
 import Features from './game-features'
 import Roadmap from '../components/roadmap'
+import Team from '../components/team'
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
       </main>
       <Features />
       <Roadmap />
+      <Team />
     </div>
   )
 }

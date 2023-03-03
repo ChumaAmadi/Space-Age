@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css'
 
-// Background Video Component
+{/* Space */}
 export default function Space() {
     return (
         <video autoPlay muted loop className={styles.video}>         

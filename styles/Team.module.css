@@ -1,12 +1,12 @@
 .teamContainer {
     border: #fff 1px solid;
-    padding: 6rem;
     width: 100%;
     height: 450px;
     position: relative;
     overflow-y: hidden;
     overflow-x: hidden;
-    margin-top: 220px;
+    padding: 6rem;
+    bottom: 136px
 }
 
 .teamText {
@@ -60,10 +60,12 @@
     width: 430px;
     z-index: 1;
     bottom: 800px;
+    left: 50px;
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
 }
 
 .teamTextBox img {
@@ -71,6 +73,7 @@
     z-index: 1;
     object-fit: contain;
     width: 430px;
+    filter: blur(5px);
 }
 
 .teamTextBox2 {
@@ -79,12 +82,13 @@
     height: 430px;
     width: 430px;
     z-index: 1;
-    bottom: 1600px;
-    left: 1200px;
+    bottom: 1663px;
+    left: 1250px;
     display: flex;
     flex-direction: column; 
     justify-content: right;
     align-items: right;
+    border-radius: 8px;
 }
 
 .teamTextBox2 img {
@@ -92,4 +96,71 @@
     z-index: 1;
     object-fit: contain;
     width: 430px;
+    filter: blur(5px);
+}
+
+.teamPicture img {
+    position: relative;
+    z-index: 1;
+    object-fit: contain;
+    width: 430px;
+}
+
+.teamPicture {
+    position: relative;
+    border: #fff 1px solid;
+    height: 430px;
+    width: 430px;
+    z-index: 1;
+    bottom: 1232px;
+    left: 650px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: right;
+    align-items: right;
+    border-radius: 8px;
+}
+
+.teamText2 {
+    font-size: 1.6rem;
+    font-weight: 520;
+    text-align: center;
+    position: relative;
+    font-style: oblique;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    top: 360px;
+    align-items: center;
+    justify-content: center; 
+}
+
+.teamText1 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    font-style: oblique;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.teamText3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    font-style: oblique;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    top: 45px;
+    align-items: center;
+    justify-content: center; 
 }

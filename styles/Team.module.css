@@ -6,7 +6,7 @@
     overflow-y: hidden;
     overflow-x: hidden;
     padding: 6rem;
-    bottom: 136px
+    bottom: 136px;
 }
 
 .teamText {
@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     z-index: 1;
-    bottom: 810px;
+    bottom: 835px;
     right: 40px;
 }
 
@@ -55,7 +55,7 @@
 
 .teamTextBox {
     position: relative;
-    border: #fff 1px solid;
+    border: #fff 2px solid;
     height: 430px;
     width: 430px;
     z-index: 1;
@@ -73,12 +73,12 @@
     z-index: 1;
     object-fit: contain;
     width: 430px;
-    filter: blur(5px);
+    filter: blur(7px);
 }
 
 .teamTextBox2 {
     position: relative;
-    border: #fff 1px solid;
+    border: #fff 2px solid;
     height: 430px;
     width: 430px;
     z-index: 1;
@@ -96,7 +96,7 @@
     z-index: 1;
     object-fit: contain;
     width: 430px;
-    filter: blur(5px);
+    filter: blur(7px);
 }
 
 .teamPicture img {
@@ -108,7 +108,7 @@
 
 .teamPicture {
     position: relative;
-    border: #fff 1px solid;
+    border: #fff 2px solid;
     height: 430px;
     width: 430px;
     z-index: 1;
@@ -116,9 +116,9 @@
     left: 650px;
     display: flex;
     flex-direction: column; 
-    justify-content: right;
-    align-items: right;
+    align-items: center;
     border-radius: 8px;
+
 }
 
 .teamText2 {
@@ -134,10 +134,14 @@
     top: 360px;
     align-items: center;
     justify-content: center; 
+    border: 1px solid #fff;
+    border-radius: 8px;
+    width: 79%;
+    background-color: rgba(0, 0, 0, 0.842);
 }
 
 .teamText1 {
-    font-size: 1.1rem;
+    font-size: 1.03rem;
     font-weight: 400;
     text-align: center;
     position: relative;
@@ -151,7 +155,7 @@
 }
 
 .teamText3 {
-    font-size: 1.3rem;
+    font-size: 1.03rem;
     font-weight: 400;
     text-align: center;
     position: relative;

@@ -5,10 +5,12 @@
     height: 250px;
     position: relative;
     overflow-y: hidden;
-    overflow-x: hidden;
     display: flex;
+    padding: 6rem;
+    margin-bottom: 100px;
+    bottom: 272px;
     flex-direction: row;
-    background-color: #030f1baf;
+    background-color: rgba(0, 0, 0, 0.63);
 }
 
 .footerContainer {
@@ -21,7 +23,7 @@
     flex-direction: column;
     position: relative;
     left: 430px;
-    top: 60px;
+    top: 45px;
 }
 
 .footerText {
@@ -44,7 +46,7 @@
 .footerButton {
     width: 320px;
     height: 40px;
-    background-color: #0b4072;
+    background-color: #031f3b91;
     text-align: center;
     position: relative;
     font-style: oblique;
@@ -56,5 +58,10 @@
     margin-top: 25px;
     align-items: center;
     justify-content: center;
-    bottom: 20px;
+    bottom: 25px;
+}
+
+.footerButton:hover {
+    background-color: #031f3b;
+    cursor: pointer;
 }

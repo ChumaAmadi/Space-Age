@@ -15,8 +15,7 @@ export default function Team() {
                 <h1 className={styles.teamText}>Meet The Team!</h1>
                 <div className={styles.teamTextBox}>
                     <Image src={Astro} alt=" " layout="fill" className={styles.astro} />
-                    <p className={styles.teamText1}>Founder & Lead Developer</p>
-                    <p className={styles.teamText1}>Hello! I am Chukwuma & I am currently the heart and soul behind Space Age.</p>
+                    <p className={styles.teamText1}>Hello! I am Chukwuma & I am founder & lead developer of Space Age.</p>
                     <p className={styles.teamText1}>I am 23 years of age, I am am going to graduate from the University of Massachusetts Boston this spring with a Bachelor's of Science in Information Technology.</p>
                     <p className={styles.teamText1}>My dream is to become a full-stack developer and advance the uses of blockchain and web3 technology..</p>
                     <p className={styles.teamText1}>I have been programming off & on since 2016. Web3 has truly manifested my love for programming and I am forever grateful for this.</p>
@@ -30,6 +29,7 @@ export default function Team() {
                     <p className={styles.teamText3}>The overall goal of Space Age is to provide a simple, yet captivating game for all to enjoy</p>
                     <p className={styles.teamText3}>Also, to cultivate a community of like-minded individuals who are passionate about web3 technology and want to see Space Age flourish.</p>
                     <p className={styles.teamText3}>Innovation and creativity will be implemented on unseen scales while players earn Solana by actively playing as their role.</p>
+                    <p className={styles.teamText3}>As the universe expands, so will the need for cooperation amongst the different roles.</p>
                 </div>
                 
             </div>

@@ -2,11 +2,29 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../public/spaceagetrans.png'
+import { useState, useEffect } from 'react';
 
 {/* Navbar */}
-export default function Navbar() {
+const Navbar = () => {
+    const [scrolled, setScrolled] = useState(false);
+  
+    useEffect(() => {
+      const handleScroll = () => {
+        const isScrolled = window.scrollY > 0;
+        if (isScrolled !== scrolled) {
+          setScrolled(isScrolled);
+        }
+      };
+  
+      document.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        document.removeEventListener('scroll', handleScroll);
+      };
+    }, [scrolled]);
+  
     return (
-        <nav className={styles.navbar}>
+        <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
             <div className={styles.leftContent}>
                 <div className={styles.logo}>
                 <Link href="/"><Image src={logo} alt="" /></Link>
@@ -23,3 +41,5 @@ export default function Navbar() {
         </nav>
     )
 }
+
+export default Navbar

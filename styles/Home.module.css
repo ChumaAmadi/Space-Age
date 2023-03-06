@@ -8,17 +8,33 @@
   overflow-x: hidden;
 }
 
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
  /* Navbar & Content */
  .navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 93%;
+  width: 100%;
   height: 30px;
   margin: 0 auto;
   padding: 1rem;
-  position: sticky;
+  position: fixed;
+  z-index: 2;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.63);
+  transition: 0.3s ease-in-out;
+  border: 1px solid #fff;
 }
 
 .logo {
@@ -64,7 +80,7 @@
   padding: 0.5rem 1rem;
   font-size: 1rem;
   font-weight: 720;
-  margin-left: 1.5rem;
+  margin-right: 1rem;
   font-style: oblique;
   text-decoration: none;
   position: relative;
@@ -77,7 +93,7 @@
   padding: 0.5rem 1rem;
   font-size: 1rem;
   font-weight: 720;
-  margin-left: 1.5rem;
+  margin-right: 1rem;
   font-style: oblique;
   text-decoration: none;
   top: 15.5px;
@@ -90,7 +106,7 @@
   padding: 0.5rem 1rem;
   font-size: 1rem;
   font-weight: 720;
-  margin-left: 1.5rem;
+  margin-right: 1rem;
   font-style: oblique;
   text-decoration: none;
   top: 15.5px;
@@ -103,7 +119,7 @@
   padding: 0.5rem 1rem;
   font-size: 1rem;
   font-weight: 720;
-  margin-left: 1.5rem;
+  margin-right: 1rem;
   font-style: oblique;
   text-decoration: none;
   top: 15.5px;
@@ -116,7 +132,7 @@
   padding: 0.5rem 1rem;
   font-size: 1rem;
   font-weight: 720;
-  margin-left: 1.5rem;
+  margin-right: 1rem;
   font-style: oblique;
   text-decoration: none;
   top: 15.5px;
@@ -172,6 +188,7 @@
   text-decoration: none;
 }
 
+
 /* End Of Navbar & Content */
 
 /* Main Content */
@@ -183,7 +200,7 @@
   height: 90vh;
   width: 90%;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 2rem;
   color: #fff;
 }
 
@@ -216,7 +233,7 @@
   height: 40%;
   background-color: rgba(0, 0, 0, 0.63);
   position: relative;
-  bottom: 25px;
+  top: 20px;
 }
 
 .mainRight {

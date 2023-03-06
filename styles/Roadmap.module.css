@@ -23,7 +23,7 @@
     margin-top: 35px;
     z-index: 1;
     right: 40px;
-    bottom: 65px;
+    bottom: 82px;
 
 }
 
@@ -37,7 +37,7 @@
     flex-direction: row;
     position: relative;
     left: 470px;
-    bottom: 80px;
+    bottom: 100px;
 }
 
 .roadmapContainer2 img {

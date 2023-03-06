@@ -38,6 +38,7 @@
     position: relative;
     left: 470px;
     bottom: 100px;
+    border-radius: 6px;
 }
 
 .roadmapContainer2 img {

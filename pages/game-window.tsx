@@ -16,7 +16,8 @@ function GameWindow() {
   }
 
   return (
-    <div className="game-window">
+    <div className={styles.gameWindow}>
+      
       <h1>{currentPrompt}</h1>
       {options.map((option, index) => (
         <button key={index} onClick={() => handleOptionClick(option.nextPrompt)}>

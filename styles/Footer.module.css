@@ -1,0 +1,60 @@
+.mainContainer {
+    border: #fff 1px solid;
+    padding: 6rem;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: #030f1baf;
+}
+
+.footerContainer {
+    width: 495px;
+    height: 750px;
+    position: relative;
+    overflow-x: hidden;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 430px;
+    top: 60px;
+}
+
+.footerText {
+    font-size: 2.8rem;
+    font-weight: 490;
+    width: 310px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    font-style: oblique;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    z-index: 1;
+    bottom: 80px;
+    right: 47px;
+}
+
+.footerButton {
+    width: 320px;
+    height: 40px;
+    background-color: #0b4072;
+    text-align: center;
+    position: relative;
+    font-style: oblique;
+    border-radius: 5px;
+    border: #fff 1px solid;
+    color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+}

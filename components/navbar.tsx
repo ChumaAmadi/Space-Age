@@ -14,11 +14,11 @@ export default function Navbar() {
                 <h3 className={styles.navbarText}>Space Age</h3>
             </div>
             <div className={styles.rightContent}>
-                <h3 className={styles.navbarText1}>Home</h3>
-                <h3 className={styles.navbarText2}>Whitepaper</h3>
-                <h3 className={styles.navbarText3}>Team</h3>
-                <h3 className={styles.navbarText4}>Select Wallet</h3>
-                <h3 className={styles.navbarText5}>Play Game</h3>
+                <Link href="/" passHref legacyBehavior><a className={styles.navbarText1}>Home</a></Link>
+                <Link href="whitepaper" passHref legacyBehavior><a className={styles.navbarText2}>Whitepaper</a></Link>
+                <Link href="faq" passHref legacyBehavior><a className={styles.navbarText3}>FAQ</a></Link>
+                <Link href="login" passHref legacyBehavior><a className={styles.navbarText4}>Login</a></Link>
+                <Link href="game" passHref legacyBehavior><a className={styles.navbarText5}>Play Game</a></Link>
             </div>
         </nav>
     )

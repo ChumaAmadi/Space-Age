@@ -66,6 +66,8 @@
   font-weight: 720;
   margin-left: 1.5rem;
   font-style: oblique;
+  text-decoration: none;
+  position: relative;
 }
 
 .navbarText2 {
@@ -77,6 +79,8 @@
   font-weight: 720;
   margin-left: 1.5rem;
   font-style: oblique;
+  text-decoration: none;
+  top: 15.5px;
 }
 
 .navbarText3 {
@@ -88,6 +92,8 @@
   font-weight: 720;
   margin-left: 1.5rem;
   font-style: oblique;
+  text-decoration: none;
+  top: 15.5px;
 }
 
 .navbarText4 {
@@ -99,6 +105,8 @@
   font-weight: 720;
   margin-left: 1.5rem;
   font-style: oblique;
+  text-decoration: none;
+  top: 15.5px;
 }
 
 .navbarText5 {
@@ -110,32 +118,60 @@
   font-weight: 720;
   margin-left: 1.5rem;
   font-style: oblique;
+  text-decoration: none;
+  top: 15.5px;
 }
 
 .navbarText5:hover {
   color: #7b337d;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .navbarText1:hover {
   color: #7b337d;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .navbarText2:hover {
   color: #7b337d;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .navbarText3:hover {
   color: #7b337d;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .navbarText4:hover {
   color: #7b337d;
-  cursor: pointer;
+  text-decoration: none;
 }
+
+.navbarText5:active {
+  color: #7b337d;
+  text-decoration: none;
+}
+
+.navbarText4:active {
+  color: #7b337d;
+  text-decoration: none;
+}
+
+.navbarText3:active {
+  color: #7b337d;
+  text-decoration: none;
+}
+
+.navbarText2:active {
+  color: #7b337d;
+  text-decoration: none;
+}
+
+.navbarText1:active {
+  color: #7b337d;
+  text-decoration: none;
+}
+
 /* End Of Navbar & Content */
 
 /* Main Content */

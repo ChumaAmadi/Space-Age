@@ -8,6 +8,7 @@ import Ufo from '../public/ufo.gif'
 import Features from './game-features'
 import Roadmap from '../components/roadmap'
 import Team from '../components/team'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
       <Features />
       <Roadmap />
       <Team />
+      <Footer />
     </div>
   )
 }

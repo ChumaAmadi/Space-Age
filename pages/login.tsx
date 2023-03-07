@@ -1,19 +1,33 @@
-import { useRouter } from 'next/router';
+import { useState, useEffect } from 'react';
 import { useWallet } from '@solana/wallet-adapter-react';
-import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
+import firebase from '../firebase';
 
 function Login() {
-  const { connected } = useWallet();
+  const { publicKey, connected } = useWallet();
   const router = useRouter();
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     if (connected) {
-      router.push('/game');
-    }
-  }, [connected, router]);
+      const walletAddress = publicKey.toBase58();
+      const userRef = firebase.database.ref(`users/${walletAddress}`);
 
-  const handleConnectWallet = async () => {
+      userRef.once('value', (snapshot: { val: () => any; }) => {
+        const user = snapshot.val();
+        if (user) {
+          // returning user, redirect to game
+          router.push('/game');
+        } else {
+          // new user, add to Firebase DB and redirect to tutorial
+          userRef.set({ walletAddress });
+          router.push('/tutorial');
+        }
+      });
+    }
+  }, [connected, publicKey, router]);
+
+  async function connectWallet() {
     setLoading(true);
     try {
       await window.solana.connect();
@@ -26,18 +40,17 @@ function Login() {
 
   return (
     <div>
-      <h1>Login to Space Age</h1>
-      <button disabled={loading} onClick={handleConnectWallet}>
-        {loading ? 'Connecting...' : 'Connect Wallet'}
-      </button>
+      <h1>Login Page</h1>
+      {loading ? (
+        <p>Loading...</p>
+      ) : (
+        <>
+          <p>Please connect your Phantom wallet to continue.</p>
+          <button onClick={connectWallet}>Connect Wallet</button>
+        </>
+      )}
     </div>
   );
 }
-
-
-
-
-
-
 
 export default Login;

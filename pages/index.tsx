@@ -6,7 +6,7 @@ import Navbar from '../components/navbar'
 import Image from 'next/image'
 import Ufo from '../public/ufo.gif'
 import Features from './features'
-import Roadmap from '../components/roadmap'
+import Roadmap from './roadmap'
 import Team from '../components/team'
 import Footer from '../components/footer'
 

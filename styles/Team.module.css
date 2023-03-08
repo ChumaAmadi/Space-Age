@@ -1,15 +1,16 @@
 .teamContainer {
     border: #fff 1px solid;
     width: 100%;
-    height: 450px;
+    height: 700px;
     position: relative;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    padding: 6rem;
-    bottom: 136px;
+    z-index: 1;
+    right: 270px;
+    align-items: center;
+    top: 40px;
+    flex-direction: row;
 }
 
-.teamText {
+.teamTitle {
     font-size: 3rem;
     font-weight: 400;
     text-align: left;
@@ -19,152 +20,23 @@
     display: flex;
     flex-direction: row;
     z-index: 1;
-    bottom: 835px;
     right: 40px;
+    margin-bottom: 800px;
+    height: 50px;
+    width: 400px;
 }
-
-.video {   
-    object-fit: fill;   
-    width: 1950px;
-    height: 750px;
-    position: relative;
-    right: 100px;
-    z-index: -1;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    bottom: 100px;
-  }
 
 .mainContainer {
     display: flex;
     flex-direction: row;
     position: relative;
-    height: 1000px;
-    overflow-y: hidden;
     justify-content: space-between;
     align-items: center;
-}
-
-.teamContainer {
-    padding: 6rem;
+    margin-bottom: 517px;
+    border: #fff 1px solid;
     width: 100%;
-    height: 535px;
-    position: relative;
+    height: 750px;
     overflow-y: hidden;
-}
-
-.teamTextBox {
-    position: relative;
-    border: #fff 2px solid;
-    height: 430px;
-    width: 430px;
-    z-index: 1;
-    bottom: 800px;
-    left: 50px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-}
-
-.teamTextBox img {
-    position: relative;
-    z-index: 1;
-    object-fit: contain;
-    width: 430px;
-    filter: blur(7px);
-}
-
-.teamTextBox2 {
-    position: relative;
-    border: #fff 2px solid;
-    height: 430px;
-    width: 430px;
-    z-index: 1;
-    bottom: 1663px;
-    left: 1250px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: right;
-    align-items: right;
-    border-radius: 8px;
-}
-
-.teamTextBox2 img {
-    position: relative;
-    z-index: 1;
-    object-fit: contain;
-    width: 430px;
-    filter: blur(7px);
-}
-
-.teamPicture img {
-    position: relative;
-    z-index: 1;
-    object-fit: contain;
-    width: 430px;
-}
-
-.teamPicture {
-    position: relative;
-    border: #fff 2px solid;
-    height: 430px;
-    width: 430px;
-    z-index: 1;
-    bottom: 1232px;
-    left: 650px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    border-radius: 8px;
-
-}
-
-.teamText2 {
-    font-size: 1.6rem;
-    font-weight: 520;
-    text-align: center;
-    position: relative;
-    font-style: oblique;
-    color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    z-index: 1;
-    top: 360px;
-    align-items: center;
-    justify-content: center; 
-    border: 1px solid #fff;
-    border-radius: 8px;
-    width: 79%;
-    background-color: rgba(0, 0, 0, 0.842);
-}
-
-.teamText1 {
-    font-size: 1.03rem;
-    font-weight: 400;
-    text-align: center;
-    position: relative;
-    font-style: oblique;
-    color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    z-index: 1;
-    align-items: center;
-    justify-content: center;
-}
-
-.teamText3 {
-    font-size: 1.03rem;
-    font-weight: 400;
-    text-align: center;
-    position: relative;
-    font-style: oblique;
-    color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    z-index: 1;
-    top: 45px;
-    align-items: center;
-    justify-content: center; 
+    overflow-x: hidden;
+    padding: 6rem;
 }

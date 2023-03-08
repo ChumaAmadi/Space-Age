@@ -7,10 +7,11 @@
     overflow-y: hidden;
     display: flex;
     padding: 6rem;
-    margin-bottom: 100px;
+    top: 00px;
     bottom: 272px;
     flex-direction: row;
     background-color: rgba(0, 0, 0, 0.63);
+
 }
 
 .footerContainer {

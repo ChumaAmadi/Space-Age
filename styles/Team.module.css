@@ -40,3 +40,36 @@
     overflow-x: hidden;
     padding: 6rem;
 }
+
+.chumaDescription {
+    position: relative;
+    font-style: oblique;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    height: 500px;
+    width: 400px;
+    border: #ffffff 1px solid;
+    border-radius: 10px;
+}
+
+.chumaDescription p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    font-style: oblique;
+    color: #ffffff;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.chumaDescription img {
+    position: relative;
+    z-index: 1;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    filter: blur(5px);
+}

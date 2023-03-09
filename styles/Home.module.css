@@ -71,6 +71,9 @@
 .rightContent {
     display: flex;
     margin-left: 2rem;
+    position: relative;
+    right: 25px;
+    
 }
 
 .navbarText1 {

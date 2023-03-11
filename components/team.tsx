@@ -3,8 +3,9 @@ import styles from '../styles/Team.module.css'
 import Image from 'next/image'
 import Astro from '../public/astro.png'
 import Chuma from '../public/chuma.jpg'
-import Ship from '../public/ship.jpg'
+import Ship from '../public/alien-merc.jpg'
 import Star from '../public/star.jpg'
+import Alien from '../public/alien2.jpg'
 
 export default function Team() {
     return (
@@ -23,10 +24,14 @@ export default function Team() {
                 <div className={styles.chumaDescription}>
                     <Image src={Chuma} alt=" " layout="fill" className={styles.chuma} />
                     <h3>Chukwuma Nnodim-Amadi</h3>
-                        {/* The overall goal of Space Age is to provide a simple, yet captivating game for all to enjoy
-                        Also, to cultivate a community of like-minded individuals who are passionate about web3 technology and want to see Space Age flourish.
-                        Innovation and creativity will be implemented on unseen scales while players earn Solana by actively playing as their role.
-                        As the universe expands, so will the need for cooperation amongst the different roles. */}
+                </div>
+
+                <div className={styles.astroDescription}>
+                    <Image src={Alien} alt=" " layout="fill" className={styles.astro} />
+                    <p>The overall goal of Space Age is to provide a simple, yet captivating game for all to enjoy</p>
+                        <p>Also, to cultivate a community of like-minded individuals who are passionate about web3 technology and want to see Space Age flourish.</p>
+                        <p>Innovation and creativity will be implemented on unseen scales while players earn Solana by actively playing as their role.</p>
+                        <p>As the universe expands, so will the need for cooperation amongst the different roles.</p>
                 </div>
             </div>
         </div>

@@ -5,8 +5,10 @@
     height: 810px;
     position: relative;
     overflow-y: hidden;
-    overflow-x: hidden;
     margin-bottom: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .roadmapText {
@@ -14,7 +16,6 @@
     font-weight: 400;
     width: 250px;
     height: 100px;
-    text-align: left;
     position: relative;
     font-style: oblique;
     color: #ffffff;
@@ -22,7 +23,6 @@
     flex-direction: row;
     margin-top: 35px;
     z-index: 1;
-    right: 40px;
     bottom: 82px;
 
 }
@@ -31,12 +31,10 @@
     border: #fff 1px solid;
     width: 795px;
     position: relative;
-    overflow-x: hidden;
     margin-bottom: 100px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: relative;
-    left: 470px;
     bottom: 100px;
     border-radius: 6px;
 }
@@ -46,7 +44,6 @@
     z-index: 1;
     object-fit: contain;
     width: 100%;
-
 }
 
 .cosmos img {

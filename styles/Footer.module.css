@@ -1,68 +1,42 @@
 .mainContainer {
     border: #fff 1px solid;
-    padding: 6rem;
     width: 100%;
-    height: 250px;
+    height: 450px;
     position: relative;
     overflow-y: hidden;
     display: flex;
-    padding: 6rem;
-    top: 00px;
-    bottom: 272px;
     flex-direction: row;
     background-color: rgba(0, 0, 0, 0.63);
-
 }
 
-.footerContainer {
-    width: 495px;
-    height: 750px;
-    position: relative;
-    overflow-x: hidden;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 430px;
-    top: 45px;
-}
+/* Footer Left Container */
 
-.footerText {
+.footerHeader {
     font-size: 2.8rem;
     font-weight: 490;
-    width: 310px;
-    height: 100px;
-    text-align: center;
     position: relative;
     font-style: oblique;
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    margin-top: 35px;
-    z-index: 1;
-    bottom: 80px;
-    right: 47px;
+    margin-left: 80px;
 }
 
-.footerButton {
-    width: 320px;
-    height: 40px;
-    background-color: #031f3b91;
-    text-align: center;
+.footerText {
+    font-size: 1.05rem;
+    font-weight: 1rem;
     position: relative;
-    font-style: oblique;
-    border-radius: 5px;
-    border: #fff 1px solid;
-    color: #f8f8f8;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
-    align-items: center;
-    justify-content: center;
-    bottom: 25px;
+    margin-left: 80px;
 }
 
-.footerButton:hover {
-    background-color: #031f3b;
-    cursor: pointer;
+.solanaHeader {
+    font-size: 1.2rem;
+    position: relative;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
 }

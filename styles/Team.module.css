@@ -106,3 +106,13 @@
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.76);
 }
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    position: relative;
+}

@@ -1,7 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import styles from '../styles/Team.module.css'
 import Image from 'next/image'
-import Astro from '../public/astro.png'
+import Instagram from '../public/ig.png'
+import Twitter from '../public/box-twitter.png'
+import LinkedIn from '../public/linkedin.png'
+import Github from '../public/github.png'
 import Chuma from '../public/chuma.jpg'
 import Ship from '../public/alien-merc.jpg'
 import Star from '../public/star.jpg'
@@ -29,9 +32,9 @@ export default function Team() {
                 <div className={styles.astroDescription}>
                     <Image src={Alien} alt=" " layout="fill" className={styles.astro} />
                     <p>The overall goal of Space Age is to provide a simple, yet captivating game for all to enjoy</p>
-                        <p>Also, to cultivate a community of like-minded individuals who are passionate about web3 technology and want to see Space Age flourish.</p>
-                        <p>Innovation and creativity will be implemented on unseen scales while players earn Solana by actively playing as their role.</p>
-                        <p>As the universe expands, so will the need for cooperation amongst the different roles.</p>
+                    <p>Also, to cultivate a community of like-minded individuals who are passionate about web3 technology and want to see Space Age flourish.</p>
+                    <p>Space Age is a passion project of mine and I am excited to see where it goes.</p>
+                    <p>Connect with me below!</p>
                 </div>
             </div>
         </div>

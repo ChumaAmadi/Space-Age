@@ -1,0 +1,146 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 275px;
+    width: 100%;
+    height: 1000px;
+    overflow-x: hidden;
+}
+
+.connectTitle {
+    font-size: 3rem;
+    font-weight: 400;
+    position: relative;
+    font-style: oblique;
+    color: #ffffff;
+    display: flex;
+    z-index: 1;
+    height: 50px;
+    width: 400px;
+    align-items: left;
+}
+
+.connectContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    border: #fff 1px solid;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.575);
+    margin-top: 30px;
+    border: #ffffff 1px solid;
+}
+
+.substack img {
+    width: 100%;
+    height: 100%;
+}
+
+.substack {
+    width: 100px;
+    height: 200px;
+    display: flex;
+    bottom: 30px;
+    position: relative;
+}
+
+.connectContainer h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    font-style: oblique;
+    color: #ffffff;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 200px;
+    border: #fff 1px solid;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(55, 132, 151, 0.568);
+}
+
+.textContainer h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    position: relative;
+    font-style: oblique;
+    color: #ffffff;
+    display: flex;
+    height: 50px;
+    width: 400px;
+    margin-bottom: 120px;
+}
+
+.socialsContainer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    border: #fff 1px solid;
+    width: 550px;
+    height: 150px;
+    background-color: rgba(55, 132, 151, 0.568);
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.twitter, .linkedin, .github {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    
+}
+
+.instagram img, .twitter img, .linkedin img, .github img {
+    width: 100%;
+    height: 100%;
+}
+
+.instagram {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+
+.mainconnectContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    border: #fff 1px solid;
+    width: 550px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.575);
+    border: #ffffff 1px solid;
+}
+
+.alpha {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 550px;
+    height: 600px;
+    padding: 6px;
+}

@@ -1,7 +1,7 @@
 .mainContainer {
     border: #fff 1px solid;
     width: 100%;
-    height: 450px;
+    height: 150px;
     position: relative;
     overflow-y: hidden;
     display: flex;
@@ -9,10 +9,8 @@
     background-color: rgba(0, 0, 0, 0.63);
 }
 
-/* Footer Left Container */
-
 .footerHeader {
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 490;
     position: relative;
     font-style: oblique;
@@ -22,21 +20,80 @@
     margin-left: 80px;
 }
 
-.footerText {
-    font-size: 1.05rem;
-    font-weight: 1rem;
-    position: relative;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    margin-left: 80px;
-}
 
 .solanaHeader {
-    font-size: 1.2rem;
+    font-size: 1rem;
     position: relative;
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
+    margin-left: 106px;
+    bottom: 59px;
+}
+
+.solanaContainer {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-left: 65px;
+    margin-bottom: 21.5px;
+    bottom: 10px;
+}
+
+.solanaContainer img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+.img1, .img2, .img3 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-left: 65px;
+}
+
+.img1 img {
+    width: 50%;
+    height: 50%;
+}
+
+.img2 img, .img3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.img1 img {
+    left: 54px;
+    margin-top: 12px;
+    position: relative;
+}
+
+.img3 img {
+    right: 65px;
+    position: relative;
+}
+
+.footerRightContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-left: 978px;
+    color: #fff;
+    position: relative;
+    margin-top: 70px;
+}
+
+.footerHeader2 {
+    font-size: 1.2rem;
+    font-weight: 490;
+    position: relative;
+    font-style: oblique;
+    color: #ffffff;
+    display: flex;
+    align-items: right;
+    left: 1270px;
+    margin-top: 35px;
 }

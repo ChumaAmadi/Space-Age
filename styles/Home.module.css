@@ -38,6 +38,7 @@
   background-color: rgba(0, 0, 0, 0.63);
   transition: 0.3s ease-in-out;
   border: 1px solid #fff;
+  border-left: 0px;
 }
 
 .logo {
@@ -211,13 +212,16 @@
 }
 
 .main p {
-  font-size: 1.05rem;
+  font-size: rem;
   font-weight: 1rem;
   text-align: left;
   width: 100%;
   position: relative;
   bottom: 55px;
   right: 28px;
+  font-style: oblique;
+  flex-shrink: 5;
+  display: flex;
 }
 
 .mainContainer {
@@ -228,6 +232,8 @@
   background-color: rgba(0, 0, 0, 0.63);
   position: relative;
   top: 20px;
+  border-left: 0px;
+  flex-shrink: 5;
 }
 
 .mainRight {

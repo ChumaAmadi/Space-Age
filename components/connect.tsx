@@ -16,6 +16,7 @@ export default function Connect() {
             <div className={styles.mainContainer}>
                 <Image src={Star} alt=" " layout="fill" quality='100' className={styles.star} />
             <div className={styles.mainconnectContainer}>
+                
                 <div className={styles.connectContainer}>
                     <h3>Dev Blog</h3>
                     <div className={styles.substack}>

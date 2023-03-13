@@ -7,11 +7,15 @@ import Cosmos from '../public/cosmos.jpg'
 {/* Roadmap Container */}
 export default function Roadmap() {
   return (
-    <div className={styles.roadmapContainer}>
-      <Image src={Cosmos} alt=" " layout="fill" quality="100" className={styles.cosmos} />
-      <h1 className={styles.roadmapText}>Roadmap</h1>
-      <div className={styles.roadmapContainer2}>
-        <Image src={starChart} alt=" " />
+    <div>
+      <div className={styles.teamTitle}>
+        <h1>Roadmap</h1>
+      </div>
+      <div className={styles.roadmapContainer}>
+        <Image src={Cosmos} alt=" " layout="fill" quality="100" className={styles.cosmos} />
+        <div className={styles.roadmapContainer2}>
+          <Image src={starChart} alt=" " />
+        </div>
       </div>
     </div>
   )

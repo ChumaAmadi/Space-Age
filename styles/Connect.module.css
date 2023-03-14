@@ -73,7 +73,7 @@
     border: #fff 1px solid;
     width: 100%;
     height: 200px;
-    background-color: rgba(112, 192, 212, 0.555);
+    background-color: #6c9a9f80;
     border-left: 0px;
 }
 
@@ -99,7 +99,7 @@
     width: 570px;
     right: 10px;
     height: 140px;
-    background-color: rgba(112, 192, 212, 0.555);
+    background-color: #6c9a9fa4;
     padding: 6px;
 }
 
@@ -175,7 +175,7 @@
     border-radius: 10px;
     padding: 6px;
     border: #ffffff 1px solid;
-    background-color: rgba(112, 192, 212, 0.555);
+    background-color: #6c9a9fa4;
     border-left: 0px;
     font-weight: 400;
     position: relative;

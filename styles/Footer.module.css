@@ -23,70 +23,117 @@
     margin-left: 80px;
 }
 
-
-.solanaHeader {
-    font-size: 1rem;
-    position: relative;
-    color: #ffffff;
+.footerLeft {
     display: flex;
     flex-direction: column;
-    margin-left: 106px;
-    bottom: 59px;
+    width: 33%;
+    height: 100%;
+    position: relative;
+    
+}
+
+.footerRight {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerCenter {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.mainFooter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: space-evenly
 }
 
 .solanaContainer {
     width: 50px;
     height: 50px;
     display: flex;
-    margin-left: 65px;
-    margin-bottom: 21.5px;
-    bottom: 10px;
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 2px;
 }
 
 .solanaContainer img {
     width: 100%;
     height: 100%;
-    margin-bottom: 0px;
 }
 
 .img1, .img2, .img3 {
     width: 50px;
     height: 50px;
     display: flex;
-    align-items: right;
-    justify-content: right;
-    margin-left: 65px;
+    position: relative;
+    
 }
 
 .img1 img {
     width: 50%;
     height: 50%;
+    position: relative;
+    top: 12px;
+    left: 12px;
 }
 
-.img2 img, .img3 img {
+.img2 img {
     width: 100%;
     height: 100%;
-}
-
-.img1 img {
-    left: 54px;
-    margin-top: 12px;
     position: relative;
 }
 
 .img3 img {
-    right: 65px;
+    width: 95%;
+    height: 100%;
     position: relative;
+    top: 1px;
 }
 
 .socials {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
-    margin-left: 978px;
     color: #fff;
+    border: 1px solid #fff;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13px;
+    bottom: 6px;
     position: relative;
-    margin-top: 70px;
+    background-color: #4431678f;
+    box-shadow: 2px 2px 10px 2px rgba(252, 252, 252, 0.459);;
+    left: 150px;
 }
 
 .footerRight h3 {
@@ -96,7 +143,17 @@
     font-style: oblique;
     color: #ffffff;
     display: flex;
-    align-items: right;
-    left: 1270px;
-    margin-top: 35px;
+    left: 150px;
+}
+
+.footerLeft p {
+    font-size: 1.2rem;
+    font-weight: 490;
+    position: relative;
+    font-style: oblique;
+    color: #ffffff;
+    display: flex;
+    align-items: left;
+    bottom: 60px;
+    margin-left: 100px;
 }

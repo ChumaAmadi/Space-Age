@@ -25,6 +25,11 @@
     width: 400px;
 }
 
+.textContainer:hover {
+    background-color: #39525dab;
+    transform: translateY(-15px);
+}
+
 .connectContainer {
     display: flex;
     flex-direction: column;
@@ -50,6 +55,7 @@
     display: flex;
     bottom: 30px;
     position: relative;
+    transition: all 0.3s ease-in-out;
 }
 
 .connectContainer h3 {
@@ -75,6 +81,7 @@
     height: 200px;
     background-color: #6c9a9f80;
     border-left: 0px;
+    transition: all 0.3s ease-in-out;
 }
 
 .textContainer h1 {
@@ -101,6 +108,7 @@
     height: 140px;
     background-color: #6c9a9fa4;
     padding: 6px;
+    transition: all 0.3s ease-in-out;
 }
 
 .twitter, .linkedin, .github {
@@ -108,6 +116,7 @@
     height: 100px;
     display: flex;
     position: relative;
+    transition: all 0.3s ease-in-out;
     
 }
 
@@ -121,6 +130,7 @@
     height: 100px;
     display: flex;
     position: relative;
+    transition: all 0.3s ease-in-out;
 }
 
 .mainconnectContainer {
@@ -139,6 +149,12 @@
     overflow-x: hidden;
     margin-bottom: 70px;
     display: flex;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.322);
+    transition: all 0.3s ease-in-out;
+}
+
+.mainconnectContainer:hover {
+    transform: translateY(-15px);
     box-shadow: 2px 2px 10px 2px rgba(252, 252, 252, 0.322);
 }
 
@@ -176,7 +192,6 @@
     padding: 6px;
     border: #ffffff 1px solid;
     background-color: #6c9a9fa4;
-    border-left: 0px;
     font-weight: 400;
     position: relative;
     font-style: oblique;
@@ -184,4 +199,24 @@
     text-align: center;
     font-size: 1rem;
     justify-content: center;
+    transition: all 0.3s ease-in-out;
 }
+
+.socialsContainer:hover,
+.button:hover {
+    background-color: #39525da1;
+}
+
+.button:hover,
+.substack:hover {
+    transform: translateY(-6px);
+    cursor: pointer;
+}
+
+.instagram:hover,
+.twitter:hover,
+.linkedin:hover,
+.github:hover {
+    transform: translateY(-8px);
+}
+

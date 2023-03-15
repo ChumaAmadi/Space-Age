@@ -37,7 +37,7 @@ const Navbar = () => {
                 <Link href="/" passHref legacyBehavior><a className={styles.navbarText1}>Home</a></Link>
                 <Link href="whitepaper" passHref legacyBehavior><a className={styles.navbarText2}>Whitepaper</a></Link>
                 <Link href="faq" passHref legacyBehavior><a className={styles.navbarText3}>FAQ</a></Link>
-                <Link href="game" passHref legacyBehavior><a className={styles.navbarText4}>Pre-Alpha</a></Link>
+                <Link href="https://solspaceage.substack.com/" passHref legacyBehavior><a className={styles.navbarText4}>Pre-Alpha</a></Link>
             </div>
         </nav>
     )

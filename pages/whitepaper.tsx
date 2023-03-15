@@ -6,6 +6,7 @@ import Stars from '../public/pretty.jpg'
 import Space from '../components/space'
 import Footer from '../components/footer'
 import Navbar from '../components/navbar'
+import Link from 'next/link'
 
 export default function Whitepaper() {
     return (
@@ -28,8 +29,8 @@ export default function Whitepaper() {
                         for more updates and be sure to check out the whitepaper once it is released!
                     </p>
                     <div className={styles.buttonContainer}>
-                        <button className={styles.button}>Join The Community</button>
-                        <button className={styles.button}>Home</button>
+                        <Link href="signup" passHref legacyBehavior><button className={styles.button}>Join The Community</button></Link>
+                        <Link href="/" passHref legacyBehavior><button className={styles.button}>Home</button></Link>
                     </div>
                 </div>
             </div>

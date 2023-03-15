@@ -5,6 +5,7 @@ import Discord from '../public/discord.png'
 import Magic from '../public/magic-eden.png'
 import Solana from '../public/solana.png'
 import logo from '../public/spaceagetrans.png'
+import Link from 'next/link'
 
 export default function Footer() {
     return (
@@ -22,7 +23,9 @@ export default function Footer() {
 
                     <div className={styles.footerCenter}>
                         <div className={styles.logo}>
-                            <Image src={logo} alt=" " className={styles.solana} />
+                            <Link href="/">
+                                <Image src={logo} alt=" " className={styles.solana} />
+                            </Link>
                         </div>
                     </div>    
 
@@ -30,17 +33,22 @@ export default function Footer() {
                         <h3>Follow Our Journey!</h3>
                         <div className={styles.socials}>
                             <div className={styles.img1}>
-                                <Image src={Twitter} alt=" " className={styles.twitter} />
+                                <a href="https://twitter.com/space_age_sol" target="_blank" rel="noreferrer">
+                                    <Image src={Twitter} alt=" " className={styles.twitter} />
+                                </a>
                             </div>
                             <div className={styles.img2}>
-                                <Image src={Discord} alt=" " className={styles.discord} />
+                                <a href="https://discord.gg/4Z4Y4Y4" target="_blank" rel="noreferrer"> 
+                                    <Image src={Discord} alt=" " className={styles.discord} />
+                                </a>
                             </div>
                             <div className={styles.img3}>
-                                <Image src={Magic} alt=" " className={styles.magic} />
+                                <a href="https://magiceden.io/" target="_blank" rel="noreferrer">
+                                    <Image src={Magic} alt=" " className={styles.magic} />
+                                </a>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

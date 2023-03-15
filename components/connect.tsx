@@ -6,6 +6,7 @@ import Github from '../public/github.png'
 import Star from '../public/space-city.png'
 import Substack from '../public/substack.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Connect() {
     return (
@@ -20,28 +21,38 @@ export default function Connect() {
                 <div className={styles.connectContainer}>
                     <h3>Dev Blog</h3>
                     <div className={styles.substack}>
-                        <Image src={Substack} alt=" " quality='100' />
+                        <a href="https://solspaceage.substack.com/" target="_blank" rel="noreferrer">
+                            <Image src={Substack} alt=" " quality='100' />
+                        </a>
                     </div>
                 </div>
                 
                 <div className={styles.socialsContainer}>
                     <div className={styles.instagram}>
-                        <Image src={Instagram} alt=" " quality='100' />
+                        <a href="https://www.instagram.com/ch.v.ma/" target="_blank" rel="noreferrer">
+                            <Image src={Instagram} alt=" " quality='100' />
+                        </a>
                     </div>
                     <div className={styles.twitter}>
-                        <Image src={Twitter} alt=" " quality='100' />
+                        <a href="https://twitter.com/ChumaStacks" target="_blank" rel="noreferrer">
+                            <Image src={Twitter} alt=" " quality='100' />
+                        </a>
                     </div>
                     <div className={styles.linkedin}>
-                        <Image src={LinkedIn} alt=" " quality='100' />
+                        <a href="https://www.linkedin.com/in/chukwuma-nnodim-amadi-466589170/" target="_blank" rel="noreferrer">
+                            <Image src={LinkedIn} alt=" " quality='100' />
+                        </a>
                     </div>
                     <div className={styles.github}>
-                        <Image src={Github} alt=" " quality='100' />
+                        <a href="https://github.com/ChumaAmadi" target="_blank" rel="noreferrer">
+                            <Image src={Github} alt=" " quality='100' />
+                        </a>
                     </div>
                 </div>
 
                 <div className={styles.alpha}>
                     <h3>Pre-Alpha Signup</h3>
-                    <button className={styles.button}>Pre-Alpha</button>
+                    <Link href="https://solspaceage.substack.com/" passHref legacyBehavior><button className={styles.button}>Pre-Alpha</button></Link>
                 </div>
 
                 </div>

@@ -1,0 +1,46 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    bottom: 30px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .question {
+    margin-bottom: 13px;
+    border: 1px solid #fcfcfc;
+    border-radius: 4px;
+    padding: 16px;
+    position: relative;
+    cursor: pointer;
+    background-color: #3b56a259;
+    color: #fcfcfc;
+    top: 30px;
+    box-shadow: 2px 2px 10px 2px rgba(252, 252, 252, 0.322);
+  }
+  
+  .arrow {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fcfcfc;
+  }
+  
+  .answer {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+  
+  .answerActive {
+    height: auto;
+    transition: height 0.3s ease;
+  }
+  
+  .answerText {
+    color: #ffffff;
+    text-align: justify;
+    font-size: 16px;
+  }

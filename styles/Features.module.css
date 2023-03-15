@@ -13,7 +13,6 @@
   margin: auto;
   bottom: 60px;
   border-left: 0px;
-  margin-bottom: 135px;
 }
 
 .planet img {
@@ -130,6 +129,21 @@
   background-color: rgba(0, 0, 0, 0.63);
   box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.829);
   padding: 6px;
+
+}
+
+.feature:hover,
+.feature2:hover,
+.feature3:hover,
+.feature4:hover {
+  transform: translateY(-15px);
+}
+
+.feature,
+.feature2,
+.feature3,
+.feature4 {
+  transition: all 0.3s ease-in-out;
 }
 
 .feature2 h3 {
@@ -259,7 +273,8 @@
   background-color: #493b7388;
   margin: auto;
   border-left: 0px;
-  top: 30px
+  top: 30px;
+  transition: all 0.3s ease-in-out;
 }
 
 .teamTitle h1 {
@@ -274,4 +289,9 @@
   margin-bottom: 140px;
   text-align: center;
   justify-content: center;
+}
+
+.teamTitle:hover {
+  transform: translateY(-15px);
+  background-color: #1314329f;
 }

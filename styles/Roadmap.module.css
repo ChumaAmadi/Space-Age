@@ -4,12 +4,11 @@
     height: 940px;
     position: relative;
     overflow-y: hidden;
-    margin-bottom: 135px;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
-    bottom: 85px;
+    bottom: 90px;
     flex: 0 10 auto;
     border-left: 0px;
 }
@@ -70,5 +69,6 @@
     background-color: #13295681;
     margin: auto;
     border-left: 0px;
+    margin-top: 20px;
 }
 

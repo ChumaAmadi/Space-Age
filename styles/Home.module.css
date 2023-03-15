@@ -66,12 +66,6 @@
   margin-left: 1rem;
 }
 
-.navbarText:hover .navbarText2:hover {
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 .rightContent {
     display: flex;
     margin-left: 2rem;
